@@ -154,7 +154,7 @@ public class Polynomial {
         return result;
     }
     /**
-     * Subtracts otherPolynomial from this polynomial
+     * Subtracts otherPolynomial from this polynomial f
      *
      1. Declare (let) result as a Polynomial that will eventually represent the difference polynomial
      2. Construct a new LinkedList of Term(i.e. resultTerms) that will eventually hold
