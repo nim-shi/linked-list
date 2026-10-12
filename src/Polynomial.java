@@ -32,7 +32,7 @@ public class Polynomial {
             // if the degree of the current term is = to the degree of new term then add them
             if(currentTerm.getDegree() == newTerm.getDegree()){
 
-                // set the current term by adding the currentTerm coefficient and  the newTerm coefficient
+                // set the current term by adding the currentTerm coefficient and  the newTermddd coefficient
                 currentTerm.setCoefficient(currentTerm.getCoefficient() + newTerm.getCoefficient());
 
                 // if the coefficient of the currentTerm is 0 then we remove it. example: (5x^3 + 2x^2) +(-2x^2) = (5x^3)
