@@ -1,14 +1,21 @@
 public class Term implements Comparable<Term>{
 
     private double coefficient;
-    private  int degree;
     private char literal;
+    private  int degree;
+
 
     /*** constructor of term with coef, degree set to 0 and literal x*/
     public Term(){
         coefficient = 0;
-        degree = 0;
         literal = 'x';
+        degree = 0;
+
+    }
+    public Term(double coefficient){
+        this.coefficient = coefficient;
+        literal = ' ';
+        degree = 0;
     }
 
     /**
